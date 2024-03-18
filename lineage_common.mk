@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
     device/google/gs201/product-permissions-stock.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/product-permissions-stock.xml
 endif
 
+# HbmSVManager
+PRODUCT_COPY_FILES += \
+    device/google/gs201/conf/disable_hbmsv.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/disable_hbmsv.sh
+
 # Lineage Health
 include hardware/google/pixel/lineage_health/device.mk
 
