@@ -37,6 +37,9 @@ include hardware/google/pixel/lineage_health/device.mk
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     device/google/gs201/linker.config.json
 
+# Memory Allocator
+PRODUCT_USE_SCUDO := true
+
 # Parts
 PRODUCT_PACKAGES += \
     GoogleParts
