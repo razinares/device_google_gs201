@@ -33,6 +33,9 @@ PRODUCT_COPY_FILES += \
 # Lineage Health
 include hardware/google/pixel/lineage_health/device.mk
 
+# PixelParts
+include packages/apps/PixelParts/device.mk
+
 # Linker config
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     device/google/gs201/linker.config.json
