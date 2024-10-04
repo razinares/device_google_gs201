@@ -39,6 +39,9 @@ $(call inherit-product-if-exists, packages/apps/PixelParts/device.mk)
 # Pixel Camera
 $(call inherit-product-if-exists, vendor/google/camera/pixelcamera.mk)
 
+# Face Unlock
+$(call inherit-product-if-exists, vendor/google/faceunlock/device.mk)
+
 
 
 # Linker config
