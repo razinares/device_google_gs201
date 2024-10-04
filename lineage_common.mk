@@ -42,6 +42,11 @@ $(call inherit-product-if-exists, vendor/google/camera/pixelcamera.mk)
 # Face Unlock
 $(call inherit-product-if-exists, vendor/google/faceunlock/device.mk)
 
+# AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
+# ViPER4AndroidFX
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
 
 # Linker config
