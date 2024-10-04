@@ -36,6 +36,11 @@ include hardware/google/pixel/lineage_health/device.mk
 # Pixel Parts
 $(call inherit-product-if-exists, packages/apps/PixelParts/device.mk)
 
+# Pixel Camera
+$(call inherit-product-if-exists, vendor/google/camera/pixelcamera.mk)
+
+
+
 # Linker config
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
     device/google/gs201/linker.config.json
