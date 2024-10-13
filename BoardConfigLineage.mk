@@ -11,7 +11,7 @@ TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE := true
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE := false
 
 # Manifests
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/voltage/config/device_framework_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE += device/google/gs201/android.hardware.security.rkp-service.citadel.xml
 ifneq ($(BOARD_WITHOUT_RADIO),true)
 DEVICE_MANIFEST_FILE += device/google/gs201/manifest_radio_ds.xml
